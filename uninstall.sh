@@ -1,2 +1,5 @@
 rm -rf $PREFIX/lib/chromium
-rm $PREFIX/bin/chrome $PREFIX/bin/chromium-browser $PREFIX/bin/chromedriver $PREFIX/bin/chrome-wrapper
+unlink $PREFIX/bin/chrome
+unlink $PREFIX/bin/chromium-browser
+unlink $PREFIX/bin/chromedriver
+unlink $PREFIX/bin/chrome-wrapper
