@@ -6,5 +6,5 @@ cp chromium-browser $PREFIX/bin
 chmod +x $PREFIX/bin/chromium-browser
 cp libgbm.so $PREFIX/lib/
 chmod +x $PREFIX/lib/libgbm.so
-ln -s $PREFIX/lib/chromium $PREFIX/bin/chrome
+ln -s $PREFIX/lib/chromium/chrome $PREFIX/bin/chrome
 echo "to run chrome, type \"chrome\" or \"chromium-browser\""
